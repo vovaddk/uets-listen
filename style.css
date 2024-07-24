@@ -118,22 +118,22 @@
   appearance: none;
   width: 15px;
   height: 15px;
-  background: #30485f;
+  /* background: #30485f; */
   cursor: pointer;
   border-radius: 50%;
-  box-shadow: -100vw 0 0 100vw #30485f;
+  /* box-shadow: -100vw 0 0 100vw #30485f; */
 }
 
 .audio-controls input[type="range"]::-moz-range-thumb {
   width: 15px;
   height: 15px;
-  background: #30485f;
+  /* background: #30485f; */
   cursor: pointer;
   border-radius: 50%;
 }
 
 .audio-controls input[type="range"]::-moz-range-progress {
-  background: #30485f;
+  /* background: #30485f; */
 }
 
 .time-info {
