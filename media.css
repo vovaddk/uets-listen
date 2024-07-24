@@ -84,10 +84,11 @@
 
   .media-controls {
     width: 100%;
-    padding: 20px 0 20px 0 !important;
+    padding: 20px 0 !important;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center; /* Центрування по горизонталі */
+    align-items: center; /* Центрування по вертикалі */
+    margin: 0 auto; /* Центрування самого контейнера */
     padding-left: 0 !important;
   }
 
