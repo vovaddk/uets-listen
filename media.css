@@ -88,7 +88,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 20px;
+    padding-left: 0 !important;
   }
 
   .control-button {
@@ -137,90 +137,72 @@
   .platform-button:hover {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
-}
-
-.blog-header {
-  padding-left: 20px;
-}
-.h1-text {
-  font-size: 32px;
-  line-height: 40px;
-  padding: 0 20px;
-  min-width: unset;
-}
-
-.p-text {
-  font-size: 24px;
-  line-height: 32px;
-  padding: 0 20px;
-}
-
-.p1-text {
-  width: auto !important;
-  text-align: left;
-  width: 100%;
-  font-size: 16px;
-  line-height: 24px;
-  padding-left: 20px;
-}
-.video {
-  width: auto;
-  padding: 0 20px;
-}
-.video-timeline {
-  width: 100%;
-}
-
-.video-timeline ul li {
-  padding: 0 20px;
-  font-size: 16px;
-  line-height: 30px;
-}
-
-.related-courses {
-  display: none;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.related-courses h2 {
-  font-size: 28px;
-  line-height: 36px;
-}
-
-.video-cards {
-  flex-direction: column;
-  gap: 20px;
-}
-
-.video-card {
-  width: 100%;
-  height: auto;
-}
-
-.video-card img {
-  width: 100%;
-  height: auto;
-}
-
-.video-card .title {
-  font-size: 18px;
-  line-height: 26px;
-}
-
-@media screen and (max-width: 480px) {
+  .blog-header {
+    padding-left: 20px;
+  }
   .h1-text {
+    font-size: 32px;
+    line-height: 40px;
+    padding: 0 20px;
+    min-width: unset;
+  }
+
+  .p-text {
+    font-size: 24px;
+    line-height: 32px;
+    padding: 0 20px;
+  }
+
+  .p1-text {
+    width: auto !important;
+    text-align: left;
+    width: 100%;
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 20px;
+  }
+  .video {
+    width: auto;
+    padding: 0 20px;
+  }
+  .video-timeline {
+    width: 100%;
+  }
+
+  .video-timeline ul li {
+    padding: 0 20px;
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .related-courses {
+    display: none;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .related-courses h2 {
     font-size: 28px;
     line-height: 36px;
   }
 
-  .p-text {
-    font-size: 20px;
-    line-height: 28px;
+  .video-cards {
+    flex-direction: column;
+    gap: 20px;
   }
 
-  .related-courses h2 {
-    font-size: 24px;
-    line-height: 32px;
+  .video-card {
+    width: 100%;
+    height: auto;
+  }
+
+  .video-card img {
+    width: 100%;
+    height: auto;
+  }
+
+  .video-card .title {
+    font-size: 18px;
+    line-height: 26px;
   }
 }
