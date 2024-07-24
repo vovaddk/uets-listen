@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Артілерія: що це і як працює</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="blog-header">
+          <p>Подкаст</p>
+          <p>47 хвилин</p>
+        </div>
+        <h1 class="h1-text">Артілерія: що це і як працює</h1>
+        <p class="p-text">
+          Віктор Рижов, Bintels — про логіку побудови фінмоделі
+        </p>
+        <div class="podcast-container">
+          <div class="podcast-info">
+            <img
+              src="public/images/rectangle-39.png"
+              alt="Podcast"
+              class="podcast-image"
+            />
+            <div class="podcast-details">
+              <h2>Артилерія: що це і як працює</h2>
+              <div class="audio-controls">
+                <input type="range" id="progress-bar" value="0" max="100" />
+                <div class="time-info">
+                  <span id="current-time">00:00</span>
+                  <span id="duration">47:00</span>
+                </div>
+              </div>
+              <div class="media-controls">
+                <button id="speed-button" class="control-button">
+                  <img
+                    src="public/images/vuesax-linear-vuesax-linear-vector.svg"
+                    alt="Speed Control"
+                  /><span><p>1x</p></span>
+                </button>
+                <button id="rewind-button" class="control-button">
+                  <img
+                    src="public/images/vuesax-linear-vuesax-linear-rotate-left.svg"
+                    alt="Rewind 15"
+                  />
+                  <span class="text-button"><p>15</p></span>
+                </button>
+                <button id="play-button" class="control-button play-button">
+                  <img src="public/images/play.svg" alt="Play" />
+                </button>
+                <button
+                  id="forward-button"
+                  class="control-button rotate-button"
+                >
+                  <img
+                    src="public/images/vuesax-linear-vuesax-linear-rotate-left.svg"
+                    alt="Forward 15"
+                  />
+                  <span class="text-button"><p>15</p></span>
+                </button>
+                <button id="add-button" class="control-button">
+                  <img
+                    src="public/images/vuesax-linear-vuesax-linear-vector.svg"
+                    alt="Add"
+                  />
+                  <span><p>+</p></span>
+                </button>
+              </div>
+
+              <div class="podcast-platforms">
+                <a href="#" class="platform-button spotify">
+                  <img src="public/images/spotify.png" alt="Spotify" />
+                  Spotify
+                </a>
+                <a href="#" class="platform-button soundcloud">
+                  <img src="public/images/soundcloud.png" alt="SoundCloud" />
+                  SoundCloud
+                </a>
+                <a href="#" class="platform-button">
+                  <img
+                    src="public/images/applepodcast.png"
+                    alt="Apple Podcast"
+                  />
+                  Apple Podcast
+                </a>
+                <a href="#" class="platform-button">
+                  <img
+                    src="public/images/googlepodcast.png"
+                    alt="Google Podcast"
+                  />
+                  Google Podcast
+                </a>
+              </div>
+            </div>
+          </div>
+          <audio id="audio-player" src="/public/podcast.mp3"></audio>
+        </div>
+        <div class="p1-text">
+          <p>
+            У цьому відео ми поговоримо про структуру фінмоделі. Визначимо, як
+            часто потрібно її оновлювати і хто має це робити. Дізнаємося, чим
+            корисні фінансові звіти про рух грошових коштів (cash flow),
+            прибутки та збитки (P&L) і баланс. А ще Віктор Рижов пояснить, чому
+            для фінансового моделювання не придумали нічого кращого за Excel, та
+            розкаже, як розрахувати реальні цифри і не допустити касового
+            розриву. ​
+          </p>
+        </div>
+
+        <div class="video-timeline">
+          <ul>
+            <li data-time="00:00">— інтро</li>
+            <li data-time="00:34">— знайомство з Віктором Рижовим</li>
+            <li data-time="00:45">— про що це відео</li>
+            <li data-time="00:53">
+              — що таке фінмодель і навіщо вона потрібна бізнесу?
+            </li>
+            <li data-time="01:17">— про логіку побудови фінмоделі</li>
+            <li data-time="01:52">
+              — який інструмент фінмоделювання найефективніший?
+            </li>
+            <li data-time="02:54">
+              — чи існує універсальна фінмодель для бізнесу?
+            </li>
+            <li data-time="03:24">— звідки брати цифри?</li>
+            <li data-time="03:48">— як працювати з лійкою продажу</li>
+            <li data-time="04:51">— структура фінансової моделі</li>
+            <li data-time="05:26">
+              — моделювання витратної частини: змінні та постійні витрати
+            </li>
+            <li data-time="06:23">
+              — фінансові звіти: баланс, звіт про прибутки та збитки
+            </li>
+            <li data-time="07:23">— як часто потрібно оновлювати фінмодель?</li>
+            <li data-time="08:12">
+              — хто в компанії відповідає за фінмоделювання?
+            </li>
+            <li data-time="08:25">— теорія хаосу у бізнес-процесах</li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <section class="related-courses">
+      <div class="related-courses-header">
+        <h2>Подкасти за темою:</h2>
+        <div class="button-container">
+          <button class="circle-button">
+            <svg width="24" height="24" viewBox="0 0 24 24">
+              <path d="M15.41 16.59L10.83 12l4.58-4.59L14 6l-6 6 6 6z" />
+            </svg>
+          </button>
+          <button class="circle-button right">
+            <svg width="24" height="24" viewBox="0 0 24 24">
+              <path d="M8.59 16.59L13.17 12l-4.58-4.59L10 6l6 6-6 6z" />
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="video-cards">
+        <div class="video-card">
+          <div class="video-overlay">
+            <img src="public/images/rectangle-39.png" alt="Thumbnail" />
+            <div class="play-button">
+              <svg viewBox="0 0 24 24">
+                <path d="M8 5v14l11-7z"></path>
+              </svg>
+            </div>
+          </div>
+          <div class="content">
+            <div class="blog-header">
+              <p>Психологія</p>
+              <p>Jun 28, 2019</p>
+            </div>
+            <div class="title">Психолог на війні</div>
+            <div class="view-link-container">
+              <p class="view-link">ДИВИТИСЯ</p>
+              <svg width="24" height="24" viewBox="0 0 24 24">
+                <path d="M8.59 16.59L13.17 12l-4.58-4.59L10 6l6 6-6 6z" />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="video-card">
+          <div class="video-overlay">
+            <img src="public/images/rectangle-40.png" alt="Thumbnail" />
+            <div class="play-button">
+              <svg viewBox="0 0 24 24">
+                <path d="M8 5v14l11-7z"></path>
+              </svg>
+            </div>
+          </div>
+          <div class="content">
+            <div class="blog-header">
+              <p>Поклоніння</p>
+              <p>Jun 28, 2019</p>
+            </div>
+            <div class="title">Не скопійоване поклоніння</div>
+            <div class="view-link-container">
+              <p class="view-link">ДИВИТИСЯ</p>
+              <svg width="24" height="24" viewBox="0 0 24 24">
+                <path d="M8.59 16.59L13.17 12l-4.58-4.59L10 6l6 6-6 6z" />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="video-card">
+          <div class="video-overlay">
+            <img src="public/images/rectangle-38.png" alt="Thumbnail" />
+            <div class="play-button">
+              <svg viewBox="0 0 24 24">
+                <path d="M8 5v14l11-7z"></path>
+              </svg>
+            </div>
+          </div>
+          <div class="content">
+            <div class="blog-header">
+              <p>Богослoв’я</p>
+              <p>Jun 28, 2019</p>
+            </div>
+            <div class="title">Арттерапія: що це і як працює</div>
+            <div class="view-link-container">
+              <p class="view-link">ДИВИТИСЯ</p>
+              <svg width="24" height="24" viewBox="0 0 24 24">
+                <path d="M8.59 16.59L13.17 12l-4.58-4.59L10 6l6 6-6 6z" />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>

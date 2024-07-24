@@ -1,0 +1,225 @@
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+    padding-left: 0 !important;
+  }
+  .podcast-container {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .podcast-info {
+    display: flex;
+    max-width: 100%;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+
+  .podcast-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .podcast-details h2 {
+    color: #30485f;
+    text-align: left;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0 !important;
+  }
+
+  .audio-controls {
+    padding: 0 !important;
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  .audio-controls input[type="range"] {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 7px;
+    background: #fff;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 10px 0;
+  }
+
+  .audio-controls input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    background: #30485f;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: -100vw 0 0 100vw #30485f;
+  }
+
+  .audio-controls input[type="range"]::-moz-range-thumb {
+    width: 15px;
+    height: 15px;
+    background: #30485f;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+
+  .audio-controls input[type="range"]::-moz-range-progress {
+    background: #30485f;
+  }
+
+  .time-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px; /* Зменшено для мобільних пристроїв */
+  }
+
+  #progress-bar {
+    flex-grow: 1;
+  }
+
+  .media-controls {
+    width: 100%;
+    padding: 20px 0 20px 0 !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .control-button {
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f2f6f9;
+    font-size: 12px; /* Зменшено для мобільних пристроїв */
+    cursor: pointer;
+  }
+
+  .control-button img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .control-button span {
+    color: #34495e;
+    font-size: 14px; /* Зменшено для мобільних пристроїв */
+    font-weight: bold;
+  }
+  #play-button img {
+    width: 64px !important;
+    height: 64px !important;
+  }
+
+  .podcast-platforms {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 0 !important;
+  }
+  .platform-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+  }
+
+  .platform-button:hover {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.blog-header {
+  padding-left: 20px;
+}
+.h1-text {
+  font-size: 32px;
+  line-height: 40px;
+  padding: 0 20px;
+  min-width: unset;
+}
+
+.p-text {
+  font-size: 24px;
+  line-height: 32px;
+  padding: 0 20px;
+}
+
+.p1-text {
+  width: auto !important;
+  text-align: left;
+  width: 100%;
+  font-size: 16px;
+  line-height: 24px;
+  padding-left: 20px;
+}
+.video {
+  width: auto;
+  padding: 0 20px;
+}
+.video-timeline {
+  width: 100%;
+}
+
+.video-timeline ul li {
+  padding: 0 20px;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.related-courses {
+  display: none;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.related-courses h2 {
+  font-size: 28px;
+  line-height: 36px;
+}
+
+.video-cards {
+  flex-direction: column;
+  gap: 20px;
+}
+
+.video-card {
+  width: 100%;
+  height: auto;
+}
+
+.video-card img {
+  width: 100%;
+  height: auto;
+}
+
+.video-card .title {
+  font-size: 18px;
+  line-height: 26px;
+}
+
+@media screen and (max-width: 480px) {
+  .h1-text {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .p-text {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .related-courses h2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
