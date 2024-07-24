@@ -90,6 +90,7 @@
     align-items: center; /* Центрування по вертикалі */
     margin: 0 auto; /* Центрування самого контейнера */
     padding-left: 0 !important;
+    gap: 0;
   }
 
   .control-button {
