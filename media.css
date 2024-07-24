@@ -23,6 +23,7 @@
     margin: 0 auto;
     object-fit: cover;
     margin-left: 10px !important;
+    margin-right: 10px !important;
   }
   .podcast-image img {
     width: 75%;
