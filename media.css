@@ -7,18 +7,27 @@
     max-width: 100%;
     margin: 0 auto;
     padding-left: 0 !important;
+    padding-right: 0 !important;
   }
 
   .podcast-info {
     display: flex;
     max-width: 100%;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     flex-direction: column;
   }
 
   .podcast-image {
     width: 100%;
     height: auto;
+    margin: 0 auto;
+    object-fit: cover;
+    margin-left: 10px !important;
+  }
+  .podcast-image img {
+    width: 75%;
+    height: auto;
+    padding-left: 20px !important;
     object-fit: cover;
   }
 
